@@ -1,0 +1,55 @@
+body {
+    font-size:large;
+    font-family: arial;
+}
+
+.home-background {
+    background: white;
+}
+
+.red-background {
+    background: orangered;
+}
+
+.orange-background {
+    background: orange;
+}
+
+.purple-background { 
+    background: rgb(228, 143, 228);
+}
+
+.green-background {
+    background: rgb(79, 141, 79);
+}
+
+nav {
+    width: 400px;
+}
+
+.nav__image { 
+    width: 100px;
+    height: 100%;  
+}
+
+.display-none {
+    display: none;
+}
+
+li {
+    list-style: none;
+    padding: 20px 40px 20px 10px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+ul {  //transition effect doesnt work
+    position: relative;
+    transform: translateX(-360px);
+    transition: transform 1s;
+    transition-timing-function: linear;
+}
+
+.transition {  //transition effect doesnt work
+    transform: translateX(0px);
+}

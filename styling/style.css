@@ -1,0 +1,62 @@
+body {
+  font-size: large;
+  font-family: arial;
+}
+
+.home-background {
+  background: white;
+}
+
+.red-background {
+  background: orangered;
+}
+
+.orange-background {
+  background: orange;
+}
+
+.purple-background {
+  background: #e48fe4;
+}
+
+.green-background {
+  background: #4f8d4f;
+}
+
+nav {
+  width: 400px;
+}
+
+.nav__image {
+  width: 100px;
+  height: 100%;
+}
+
+.display-none {
+  display: none;
+}
+
+li {
+  list-style: none;
+  padding: 20px 40px 20px 10px;
+  font-family: arial;
+  font-size: 20px;
+}
+
+ul {
+  position: relative;
+  -webkit-transform: translateX(-360px);
+          transform: translateX(-360px);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.transition {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+/*# sourceMappingURL=style.css.map */
